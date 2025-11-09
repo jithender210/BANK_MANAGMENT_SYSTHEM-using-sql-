@@ -14,6 +14,7 @@ It allows you to:
 
 ⚙️ Features
 
+
 ✅ Object-Oriented Programming structure (abstract base class + inheritance)
 ✅ SQLite database for permanent storage
 ✅ Auto account number generation
@@ -21,6 +22,8 @@ It allows you to:
 ✅ Simple terminal-based interface
 
 # Technical language used
+  
+  
   programing language  : python
   Database :  SQLlite
   Paradigm : Object-Oriented Programming (OOP)
@@ -29,11 +32,15 @@ It allows you to:
 
  # 🧰 Future Improvements
 
+
+
 Add transaction history (credit/debit)
   ● Implement PIN-based login
   ● Add withdrawal & deposit functionality
   ● Create a GUI using Tkinter or PyQt
 
 GIT USERNAME
+
 jithender210/BANK_MANAGMENT_SYSTHEM-using-sql-
+
 Email: jithrnder5@gmail.com
