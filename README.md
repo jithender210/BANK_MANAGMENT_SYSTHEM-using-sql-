@@ -36,7 +36,9 @@ It allows you to:
 
 Add transaction history (credit/debit)
   ● Implement PIN-based login
+	
   ● Add withdrawal & deposit functionality
+	
   ● Create a GUI using Tkinter or PyQt
 
 GIT USERNAME
