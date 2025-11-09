@@ -16,18 +16,27 @@ It allows you to:
 
 
 ✅ Object-Oriented Programming structure (abstract base class + inheritance)
+
 ✅ SQLite database for permanent storage
+
 ✅ Auto account number generation
+
 ✅ Local system time recorded at account creation
+
 ✅ Simple terminal-based interface
+
 
 # Technical language used
   
   
   programing language  : python
+	
   Database :  SQLlite
+	
   Paradigm : Object-Oriented Programming (OOP)
+	
   Modules : sqlite3 ,  datatime
+	
 
 
  # 🧰 Future Improvements
@@ -35,6 +44,7 @@ It allows you to:
 
 
 Add transaction history (credit/debit)
+
   ● Implement PIN-based login
 	
   ● Add withdrawal & deposit functionality
