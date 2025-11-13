@@ -55,4 +55,4 @@ GIT USERNAME
 
 jithender210/BANK_MANAGMENT_SYSTHEM-using-sql-
 
-Email: jithrnder5@gmail.com
+Email: jithenderrao5@gmail.com
