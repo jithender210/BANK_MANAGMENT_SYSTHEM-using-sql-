@@ -54,10 +54,10 @@ class Banksystem(Bankdatabase):
     def view_account(self, account_no):
         self.cursor.execute("SELECT c.name,c.email,c.phone,a.account_no,a.account_type,a.balance,a.created_at FROM accounts a  JOIN customers c ON a.customer_id=c.customer_id WHERE a.account_no= ?",(account_no,))
         result=self.cursor.fetchall()
-        print(result)
+        
         if result :
             for row in result:
-                print(f" YOUR ACCOUNT NO IS  {row[3]}")
+                print(f"YOUR ACCOUNT NO IS : {row[3]}")
                 print(f"Name :  {row[0]}")
                 print(f"Phone number :  {row[2]}")
                 print(f"Account type:  {row[4]}")
@@ -73,7 +73,7 @@ class Banksystem(Bankdatabase):
         return result
 
 if __name__=="__main__":
-    print("🏦🏦Welcome to bank")
+    print("🏦🏦Welcome to bank 🏦🏦")
     print("select an option :\n 1. create an account \n 2. view balance\n 3. view account details ")
 
     option=input("enetr the option:")
@@ -90,7 +90,7 @@ if __name__=="__main__":
         customer_id=bank.add_customer(name,age,email,phone,address)
         account_no=bank.open_account(customer_id,acc_typ,deposit)
         bank.view_account(account_no)
-        print("Please remember your account number!!⚠️ ⚠️ ")
+        print(" ⚠️⚠️Please remember your account number!!⚠️ ⚠️ ")
     if option=="2":
         account_no=input("Enter your account number: ")
         bal=bank.view_balance(account_no)
